@@ -1,0 +1,35 @@
+# Package Files #
+#*.jar
+*.war
+*.ear
+target/
+.idea/
+*.iml
+.DS_Store
+log.root.directory_IS_UNDEFINED
+worksapce.xml
+.idea/worksapce.xml
+generator-output
+classes/
+.settings/
+
+# Log Files
+*.log
+logs/
+
+#eclipse files
+.classpath
+.project
+
+# Java class files
+*.class
+LugerTest.java
+*Test.java
+
+# Gradle files
+.gradle/
+build/
+
+#rebel
+rebel.xml
+.rebel.xml.bak
