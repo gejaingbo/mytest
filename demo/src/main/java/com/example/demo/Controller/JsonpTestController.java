@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @date:2019/5/23
  * @mail jiangbo.ge@kuwo.cn
  */
+
 @RestController
 @RequestMapping("/jsonp")
 public class JsonpTestController {
