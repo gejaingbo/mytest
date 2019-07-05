@@ -28,7 +28,7 @@ import java.util.regex.Pattern;
  * @mail jiangbo.ge@kuwo.cn
  */
 @ControllerAdvice
-public class Jsonp extends FastJsonHttpMessageConverter implements ResponseBodyAdvice {
+public class Jsonp  implements ResponseBodyAdvice {
 
     private static final Pattern CALLBACK_PARAM_PATTERN = Pattern.compile("[0-9A-Za-z_\\.]*");
     private final Log logger = LogFactory.getLog(this.getClass());
